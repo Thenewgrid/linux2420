@@ -80,7 +80,7 @@ NOTE_FOR_ME ; How to copy from command line or no?. How mac , linux and windows 
 
 When you access your .ssh folder, you should be able to see digo-key and digo-key.pub.
 
-The key we want to get right now is digo-key.pub.
+The key we want to get right now is digo-key.pub. Right click on the "digo-key.pub" file and click open with visual studio code.
 
 ## Resources
 **in MLA or APA format**
