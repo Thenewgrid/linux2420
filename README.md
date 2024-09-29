@@ -72,15 +72,68 @@ ssh-keygen -t ed25519 -f ~/.ssh/digo-key -C "your email or name"
 ssh-keygen -t ed25519 -f C:\Users\user name\.ssh\digo-key -C "your email or name"
 ```
 
+>If you get "failed" it might mean that the .ssh directory or folder does not exist.
+>
+>Open the file explorer. This is called finder on Mac. For linux it may depend on your distribution.
+>
+>For windows;
+>
+>![image 6](picture6.png)
+>
+>Copy and paste the following line into the area left from search. Make sure you change "user name" to your user name.
+>
+>make a folder called ".ssh" inside your username folder.
+>
+>Try to generate your ssh keys again.
+
+```
+C:\Users\user name
+```
+
+>For MacOS, open finder and do `shift` + `command` + `G`.
+>
+>Copy and paste the following line into the search pop up.
+>
+>change "user name" to your user name.
+>
+>make a folder in your username folder and call it ".ssh".
+>
+>Try to generate your ssh keys again.
+```
+~/user name
+```
+
 After you enter your pass phrase, (empty for no passphrase) your public and private ssh keys should be generated.
 
 ### Public and Private keys
 
-NOTE_FOR_ME ; How to copy from command line or no?. How mac , linux and windows users can access their ssh folders/directories individualy.
+Close your terminal and open the file explorer.
+
+For windows copy and paste the following into the area left from search. Make sure to change "user name".
+
+```
+C:\Users\user name\.ssh
+```
+
+For Mac open finder and do `shift` + `command` + `G` again.
+
+Then copy and paste the following.
+
+```
+~/user name/.ssh
+```
 
 When you access your .ssh folder, you should be able to see digo-key and digo-key.pub.
 
+![image 7](picture7.png)
+
 The key we want to get right now is digo-key.pub. Right click on the "digo-key.pub" file and click open with visual studio code.
+
+once you are inside visual studio code. Copy the text in the file and close visual studio code.
+
+### Security with SSH
+
+Open your web browser again. You should be inside your project section in Digital Ocean. 
 
 ## Resources
 **in MLA or APA format**
