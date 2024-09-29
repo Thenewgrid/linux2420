@@ -129,11 +129,114 @@ When you access your .ssh folder, you should be able to see digo-key and digo-ke
 
 The key we want to get right now is digo-key.pub. Right click on the "digo-key.pub" file and click open with visual studio code.
 
-once you are inside visual studio code. Copy the text in the file and close visual studio code.
+Once you are inside visual studio code. Copy the text in the file and close visual studio code.
 
 ### Security with SSH
 
-Open your web browser again. You should be inside your project section in Digital Ocean. 
+Open your web browser again. You should be inside your project section in Digital Ocean.
+
+We are going to add the public ssh key you just copied.
+
+Go to settings.
+
+![image 8](picture8.png)
+
+Now go to security.
+
+![image 9](picture9.png)
+
+Click the "Add SSH Key" button and fill out the text fields under "New SSH Key".
+
+This will allow us to connect to our droplet with ssh.
+
+Although it is possible to connect to our droplet using a password. It is very risky. Our server (droplet) becomes vulnerable to hacking.
+
+With ssh it is much harder to hack into our droplet. To connect to our server remotely, the public and private key have to match.
+
+This means that if someone without our private key tried to break into oour server they would be denied access.
+
+### Upload Arch image
+
+On the far left side of the screen, click Backups & Snapshots under "Manage".
+
+![image 10](picture10.png)
+
+Click on "Custom Images". You should see a big blue button called "Upload Image".
+
+Click it. The button should open a pop up of your file explorer. Go to your downloads section and select the arch linux image. Then add the image.
+
+Under **Distribution** choose "Arch Linux".
+
+under **Choose a datacenter region** choose San Francisco 3.
+
+Upload the image.
+
+Wait for the image to finish pending. This may take a bit of time. Please be patient.
+
+### Making a droplet
+
+Now that we have an ssh key and an image. Lets make the droplet.
+
+Click on the create button at the top of the screen.
+
+![image 11](picture11.png)
+
+Click droplets.
+
+This should take you to the "Create Droplets" section.
+
+First choose San Francisco for the **Region**.
+
+choose SFO3 under **Datacenter**. This is the datacenter we will be using since it is the closest one to Vancouver.
+
+Scroll down to **Choose an image**.
+
+Click "Custom images". Choose the image we just uploaded.
+
+Under choose **Choose Size**. I recommend selecting **basic**, the **Dedicated CPU** option is far too excessive for our use case and will be far more costly.
+
+Scroll down to **CPU options**. Any CPU configuration is fine, just make sure it is within your budget. I recommend regular for USD$6/month.
+
+Keep scrolling until you reach **Choose Authentication Method**. Click on the **SSH Key** method and select your ssh key.
+
+finally scroll to **Finalize Details**. under **Quantity** make sure you are only making **one** droplet.
+
+Under **Hostname**, change the hostname to something easier to remember. I recommend something like buddy or pal.
+
+Under **Project** make sure it is going to your project.
+
+Create the droplet.
+
+It will take sometime to finalize.
+
+Once your droplet is finalized. Copy the IP address.
+
+You can do this by hovering over the droplet and clicking copy next to the IP address.
+
+![image 12](picture12.png)
+
+### Connecting to the droplet
+
+Open your terminal.
+
+Copy and paste the following line into your terminal. Make sure to change "droplet-ip" to your droplets IP.
+
+```
+ssh -i .ssh/digo-key arch@droplet-ip
+```
+ssh = command to provide a secure connection.
+
+-i .ssh/digo-key = path to the private key. The private key will try to connect to the server at the given ip.
+
+arch = user of the system.
+
+Once you enter the command your terminal will ask **Are you sure you want to continue connecting (yes/no/ fingerprint )?**.
+
+Type yes.
+
+If you chose to use a password to connect with your ssh key. You will be asked to use it now.
+
+To logout of the connection simply type `exit`.
 
 ## Resources
 **in MLA or APA format**
