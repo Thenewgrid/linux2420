@@ -239,4 +239,5 @@ If you chose to use a password to connect with your ssh key. You will be asked t
 To logout of the connection simply type `exit`.
 
 ## Resources
-**in MLA or APA format**
+
+My sources are located [here](sources.txt).
