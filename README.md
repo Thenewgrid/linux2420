@@ -240,4 +240,4 @@ To logout of the connection simply type `exit`.
 
 ## Resources
 
-My sources are located [here](sources.txt).
+My sources are located [here](Sources.txt).
