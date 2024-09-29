@@ -1,1 +1,13 @@
-Hello
+Awasthi, Sahil. “ED25519 or RSA Which One Is Better.” Medium, Medium, 10 Apr. 2023, medium.com/@sahil-awasthi/ed25519-or-rsa-which-one-is-better-18416fb51d0b#:~:text=ED25519%20is%20generally%20considered%20more,of%20security%20and%20efficiency%20required.
+
+Chinthaguntla, Keerthi. “A Beginner’s Guide to Navigating the Linux Filesystem.” Enable Sysadmin, Red Hat, Inc., 24 Feb. 2023, www.redhat.com/sysadmin/navigating-linux-filesystem#:~:text=(Every%20directory%2Ffile%20in%20the,the%20currently%20logged%20in%20user.
+
+cloudflare. “What Is SSH? | Secure Shell (SSH) Protocol | Cloudflare.” What Is SSH? | Secure Shell (SSH) Protocol, Cloudflare, 2024, www.cloudflare.com/learning/access-management/what-is-ssh/. 
+
+coding with LuLu . “Can’t Find .Ssh Folder in Mac ? Easy Solution.” YouTube, YouTube, 9 Sept. 2022, www.youtube.com/watch?v=mWkhCDlYM0I.
+
+Markdown Guide. “MkDocs.” Markdown Guide, 2024, www.markdownguide.org/tools/mkdocs/. 
+
+Microsoft. “Key-Based Authentication in Openssh for Windows.” Microsoft Learn, 11 Sept. 2024, learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement. 
+
+SSH academy. “SSH Command Usage, Options, and Configuration in Linux/Unix.” SSH Command Usage, Options, and Configuration in Linux/Unix, SSH Communications Security, 9 Feb. 2023, www.ssh.com/academy/ssh/command#:~:text=The%20ssh%20command%20provides%20a,SSH%20from%20a%20remote%20location. 
