@@ -11,3 +11,5 @@ Markdown Guide. “MkDocs.” Markdown Guide, 2024, www.markdownguide.org/tools/
 Microsoft. “Key-Based Authentication in Openssh for Windows.” Microsoft Learn, 11 Sept. 2024, learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement. 
 
 SSH academy. “SSH Command Usage, Options, and Configuration in Linux/Unix.” SSH Command Usage, Options, and Configuration in Linux/Unix, SSH Communications Security, 9 Feb. 2023, www.ssh.com/academy/ssh/command#:~:text=The%20ssh%20command%20provides%20a,SSH%20from%20a%20remote%20location. 
+
+McNinch, Nathan. “2420-Notes/Week-Two.Md · Main · Cit_2420 / 2420-Notes-F24 · GITLAB.” GitLab, 16 Sept. 2024, gitlab.com/cit2420/2420-notes-f24/-/blob/main/2420-notes/week-two.md. 
